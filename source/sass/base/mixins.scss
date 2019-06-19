@@ -1,0 +1,24 @@
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin reset-p {
+  margin: 0;
+}
+
+@mixin reset-h {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin tablet-title {
+  font-size: 43px;
+  line-height: 50px;
+}
+
+@mixin desktop-title {
+  font-size: 53px;
+  line-height: 57px;
+}
