@@ -1,0 +1,48 @@
+.goods__list {
+  @include reset-list;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #04bf9d;
+  // padding: 10px 0;
+}
+
+.goods__item__wrapper {
+  padding: 10px 20px;
+  background-color: #acc4e6;
+
+  p {
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+  }
+}
+
+.goods__item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #000000;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  img {
+    display: block;
+  }
+}
+
+.goods__wrapper {
+  display: none;
+}

@@ -1,0 +1,39 @@
+.certificate__background-color {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  padding-bottom: 30px;
+}
+
+.certificate__wrapper {
+  background: url("../img/sertificate-moto-big.jpg");
+  background-position: center;
+  color: black;
+
+  h2 {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 22px;
+    padding: 25px 10px;
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    padding: 0 20px;
+  }
+
+  p {
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  ul {
+    padding: 0 20px;
+    list-style: none;
+  }
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML Academy: Мишка</title>
+    <title>TopMotoCrimea - прокат квадроциклов и мотоциклов в Крыму, г. Симферополь</title>
     <link rel="preload" href="fonts/opensans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/opensansbold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link href="css/style.min.css" rel="stylesheet">
@@ -15,21 +15,319 @@
     </div>
 
     <header class="page-header page-header--nojs">
-      <nav class="main-nav">
-      </nav>
+      <div class="page-header__main-logo">
+        <a href="index.html">
+          <img src="img/logo_crimea.png" width="50" heigh="50" alt="Логотип Топмото">
+        </a>
+        <div class="page-header__wrapper">
+          <a class="page-header__tel-number" href="+7 (978) 717-96-36">+7 (978) 717-96-36</a>
+          <ul class="page-header__contact-list">
+            <li class="page-header__contact-item page-header__contact-item--white">
+              <a class="page-header__contact-link" href="#" aria-label="Оставить заявку">
+                <svg class="page-header__contact-link-icon-mail" width="32" height="26">
+                  <use xlink:href="#icon-mail"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__contact-item page-header__contact-item--black">
+              <a class="page-header__contact-link" href="https://vk.com/topmotocrimea" aria-label="Мы вконтакте">
+                <svg class="page-header__contact-link-icon-vk" fill="white" width="26" height="15">
+                  <use xlink:href="#icon-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__contact-item page-header__contact-item--red">
+              <a class="page-header__contact-link" href="https://www.instagram.com/topmotocrimea/" aria-label="Видео о нас">
+                <svg class="page-header__contact-link-icon-play" width="32" height="26">
+                  <use xlink:href="#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main class="page-main">
+      <div class="page-main__write__us">
+        <button type="button" name="button"></button>
+      </div>
+
+      <div class="page-main__title-wrapper">
+        <h1 class="page-main__main-title">Прокат квадроциклов и питбайков в  Симферополе</h1>
+      </div>
+      <nav class="main-nav main-nav--nojs">
+        <div class="main-nav__mock">
+          <button class="main-nav__toggle" type="button" aria-label="Открыть меню">
+            <span class="main-nav__toggle-line"></span>
+          </button>
+          <span class="main-nav__text-menu">Меню навигации по сайту</span>
+        </div>
+
+        <div class="goods__wrapper">
+          <div class="container">
+            <ul class="goods__list">
+              <li class="goods__item">
+                <a href="#rules">
+                  <span>Условия проката</span>
+                </a>
+              </li>
+              <li class="goods__item">
+                <a href="#routes">
+                  <span>Доступные маршруты</span>
+                </a>
+              </li>
+              <li class="goods__item">
+                <a href="#stock">
+                  <span>Акции</span>
+                </a>
+              </li>
+              <li class="goods__item">
+                <a href="#certif">
+                  <span>Подарочные сертификаты</span>
+                </a>
+              </li>
+              <li class="goods__item">
+                <a href="#map">
+                  <span>Где мы находимся</span>
+                </a>
+              </li>
+              <li class="goods__item">
+                <a href="#alb">
+                  <span>Наш альбом</span>
+                </a>
+              </li>
+              <li class="goods__item">
+                <a href="#vid">
+                  <span>Видео о нас</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="routes" class="slider">
+        <div class="container">
+          <h2 class="slider__title">Доступные маршруты:</h2>
+          <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+          <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+          <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+          <input class="visually-hidden" type="radio" id="product-4" name="toggle">
+          <input class="visually-hidden" type="radio" id="product-5" name="toggle">
+          <input class="visually-hidden" type="radio" id="product-6" name="toggle">
+          <input class="visually-hidden" type="radio" id="product-7" name="toggle">
+          <div class="slider-controls">
+            <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+            <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+            <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+            <label class="slider-controls-item slider-controls-item--4" for="product-4">Третий</label>
+            <label class="slider-controls-item slider-controls-item--5" for="product-5">Третий</label>
+            <label class="slider-controls-item slider-controls-item--6" for="product-6">Третий</label>
+            <label class="slider-controls-item slider-controls-item--7" for="product-7">Третий</label>
+          </div>
+          <ul class="slider-list">
+            <li class="slider-item slider-item--1">
+              <div class="slider-item__mock">
+                <h3>"3 смотровые" (~2 часа)</h3>
+                <img src="img/1-product.jpg" alt="">
+                <div class="slider-list__info-wrapper">
+                  <p class="slider-list-price">1 500 ₽</p>
+                  <a class="slider-item-button button" href="#">Подробнее</a>
+                </div>
+              </div>
+            </li>
+            <li class="slider-item slider-item--2">
+              <div class="slider-item__mock">
+                <h3>"Урочище Таш - Джарган" (~3 часа)</h3>
+                <img src="img/2-product.jpg" alt="">
+                <div class="slider-list__info-wrapper">
+                  <p class="slider-list-price">2 250 ₽</p>
+                  <a class="slider-item-button button" href="#">Подробнее</a>
+                </div>
+              </div>
+            </li>
+            <li class="slider-item">
+              <div class="slider-item__mock">
+                <h3>"3 скрытых озера" (~3 часа)</h3>
+                <img src="img/3-product.jpg" alt="">
+                <div class="slider-list__info-wrapper">
+                  <p class="slider-list-price">2 250 ₽</p>
+                  <a class="slider-item-button button" href="#">Подробнее</a>
+                </div>
+              </div>
+            </li>
+            <li class="slider-item">
+              <h3>Обучение езде на питбайке (от 1го часа)</h3>
+              <img src="img/4-product.jpg" alt="">
+              <div class="slider-list__info-wrapper">
+                <p class="slider-list-price">1 500 ₽</p>
+                <a class="slider-item-button button" href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="slider-item">
+              <h3>"Скалистое - Марсианское озеро" (~4 часа)</h3>
+              <img src="img/5-product.jpg" alt="">
+              <div class="slider-list__info-wrapper">
+                <p class="slider-list-price">2 900 ₽</p>
+                <a class="slider-item-button button" href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="slider-item">
+              <h3>"Заповедные воды" (~4 часа)</h3>
+              <img src="img/6-product.jpg" alt="">
+              <div class="slider-list__info-wrapper">
+                <p class="slider-list-price">2 900 ₽</p>
+                <a class="slider-item-button button" href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="slider-item">
+              <h3>"Лесные насаждения" (~1 час)</h3>
+              <img src="img/7-product.jpg" alt="">
+              <div class="slider-list__info-wrapper">
+                <p class="slider-list-price">1 000 ₽</p>
+                <a class="slider-item-button button" href="#">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="rules" class="conditions">
+        <div class="conditions__wrapper">
+          <div class="container">
+            <h2>Условия и стоимость:</h2>
+            <p>
+              ☀ Наш мотопарк - 8 единиц техники. 4 Квадроцикла на вариаторе, объемом 150 куб. см. и 4 Питбайка на полуавтоматической коробке передач, объемом 125 куб. см.
+              Вся техника обслуживается вовремя и шанс поломки во время поездки минимален.
+            </p>
+            <p>
+              Выезжаем из Симферополя, опыт и права не обязательны. Все что нужно для поездки - паспорт РФ, сменная одежда и хорошее настроение.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certif" class="certificate">
+        <div class="certificate__wrapper">
+          <div class="container">
+            <div class="certificate__background-color">
+              <div>
+                <h2>Подарочный сертификат на прокат Питбайка или Квадроцикла</h2>
+              </div>
+              <p>
+                Подарочный сертификат на прогулку на Квадроцикле/Питбайке - это уникальный подарок, который подойдёт каждому!
+              </p>
+              <p>
+                За 2 часа вы успеете побывать на 3-х смотровых вблизи Симферополя, проедете поля Залесья, Фонтанов, увидите ВСЮ Южную часть Крыма: Чатыр-Даг, Демерджи, увидите знаменитое Партизанское водохранилище и проедете по урочищу Таш-Джарган, возле которого расположена Змеиная пещера.
+              </p>
+              <h3>Что входит в сертификат:</h3>
+              <ul>
+                <li>1. Инструктаж перед поездкой;</li>
+                <li>2. Защитная экипировка;</li>
+                <li>3. Постоянное сопровождение инструктора;</li>
+                <li>4. Возможны услуги фотографа.</li>
+              </ul>
+              <h3>Условия предоставления услуг:</h3>
+              <ul>
+                <li>1. Срок действия сертификата 6 месяцев с момента продажи;</li>
+                <li>2. Предварительно согласовывайте дату и время проката;</li>
+                <li>3. Обязательно при себе иметь сменную одежду и паспорт.</li>
+              </ul>
+              <p>Стоимость сертификата на прогулку на Питбайке (2 часа) - 1500 рублей</p>
+              <p>Стоимость сертификата на прогулку на Квадроцикле (2 часа) - 2000 рублей</p>
+              <p>Доставка сертификата на дом в день заказа! По любым вопросам - звоните, работаем каждый день до 24:00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="stock" class="birthday">
+        <div class="birthday__wrapper">
+          <div class="container">
+            <h2>Внимание! <br> Скидка именинникам 25%</h2>
+            <p>
+              Если у тебя День Рождения. Если ты стал(а) на год старше, если ты любишь экстрим или тебе надоели скучные посиделки, если ты дочитал(а) до этого момента, тогда скорее бери в руки телефон и бронируй Лучший отдых в своей жизни с друзьями и скидкой 25%
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="map" class="contacts">
+        <div class="contacts__wrapper">
+          <div class="container">
+            <h2>Мы находимся здесь:</h2>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abb11cf2a4b53d58dbbd7b094c33f211ac5605037b80d6a5b542e7b64267219d2&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+          </div>
+          <div class="contacts__write-us">
+            <button></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="alb" class="slider-gallery">
+        <div class="slider-gallery__wrapper">
+          <div class="container">
+            <div class="sl_ctr">
+              <div class="sldr">
+                <div>
+                  <img src="img/slider-drive-quadro-mobile.jpg" alt="">
+                </div>
+                <div>
+                  <img src="img/slider-drive-pitbike-mobile.jpg" alt="">
+                </div>
+                <div>
+                  <img src="img/slider-drive-all-quadro-mobile.jpg" alt="">
+                </div>
+                <div>
+                  <img src="img/slider-drive-all-pitbike-mobile.jpg" alt="">
+                </div>
+              </div>
+              <div class="prv_b"></div>
+              <div class="nxt_b"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="vid" class="video">
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/f6ZsQjl4hnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </main>
 
     <footer class="page-footer">
-                <a href="#" class="social__link"  aria-label="Мы в твиттере">
-                  <svg class="social__icon" width="24" height="20">
-                    <use xlink:href="#icon-twitter"></use>
-                  </svg>
-                </a>
+      <div class="page-header__main-logo page-header__main-logo--footer">
+        <a href="index.html">
+          <img src="img/logo_crimea.png" width="50" heigh="50" alt="Логотип Топмото">
+        </a>
+        <div class="page-header__wrapper">
+          <a class="page-header__tel-number" href="+7 (978) 717-96-36">+7 (978) 717-96-36</a>
+          <ul class="page-header__contact-list">
+            <li class="page-header__contact-item page-header__contact-item--white">
+              <a class="page-header__contact-link" href="#" aria-label="Оставить заявку">
+                <svg class="page-header__contact-link-icon-mail" width="32" height="26">
+                  <use xlink:href="#icon-mail"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__contact-item page-header__contact-item--black">
+              <a class="page-header__contact-link" href="https://vk.com/topmotocrimea" aria-label="Мы вконтакте">
+                <svg class="page-header__contact-link-icon-vk" fill="white" width="26" height="15">
+                  <use xlink:href="#icon-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__contact-item page-header__contact-item--red">
+              <a class="page-header__contact-link" href="https://www.instagram.com/topmotocrimea/" aria-label="Видео о нас">
+                <svg class="page-header__contact-link-icon-play" width="32" height="26">
+                  <use xlink:href="#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jq-script.js"></script>
   </body>
 </html>

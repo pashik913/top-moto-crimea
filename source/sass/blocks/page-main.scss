@@ -1,0 +1,57 @@
+.page-main__main-title {
+  @include reset-h;
+
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 30px 20px;
+}
+
+.page-main__title-wrapper {
+  background-color: #eeeeee;
+  border-bottom: 2px dashed #000000;
+}
+
+.page-main__video {
+  display: flex;
+  justify-content: center;
+}
+
+
+.page-main__write__us {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  animation: pulsing 3s infinite;
+  z-index: 5;
+
+  button {
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/mail.png");
+    background-repeat: repeat;
+    background-color: transparent;
+    border: none;
+    background-position: center;
+    background-size: cover;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(0.7, 0.7);
+  }
+}
