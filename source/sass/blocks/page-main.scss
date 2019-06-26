@@ -12,12 +12,6 @@
   border-bottom: 2px dashed #000000;
 }
 
-.page-main__video {
-  display: flex;
-  justify-content: center;
-}
-
-
 .page-main__write__us {
   position: fixed;
   bottom: 0;
@@ -53,5 +47,16 @@
 
   100% {
     transform: scale(0.7, 0.7);
+  }
+}
+
+@media (min-width: $width-tablet) {
+  .page-main__main-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .main-nav__text-menu {
+    display: none;
   }
 }

@@ -8,3 +8,19 @@
     display: block;
   }
 }
+
+@media (min-width: $width-tablet) {
+  .video {
+    iframe {
+      height: 416px;
+    }
+  }
+}
+
+@media (min-width: $width-desktop) {
+  .video {
+    iframe {
+      height: 576px;
+    }
+  }
+}

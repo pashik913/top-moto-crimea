@@ -35,7 +35,6 @@
 
   a {
     color: black;
-    text-decoration: underline;
   }
 
   img {
@@ -45,4 +44,15 @@
 
 .goods__wrapper {
   display: none;
+}
+
+@media (min-width: $width-tablet) {
+  .goods__wrapper {
+    display: block;
+    margin-top: -82px;
+  }
+
+  .goods__list {
+    flex-direction: row;
+  }
 }

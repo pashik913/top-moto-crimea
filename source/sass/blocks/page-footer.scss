@@ -1,0 +1,25 @@
+.page-footer {
+  background-color: #04bf9d;
+  border-bottom: 2px dashed #000000;
+}
+
+@media (min-width: $width-tablet) {
+  .page-footer {
+    .page-header__wrapper {
+      flex-direction: row-reverse;
+    }
+
+    .page-header__contact-list {
+      margin-left: 0;
+      margin-right: 90px;
+    }
+  }
+}
+
+@media (min-width: $width-desktop) {
+  .page-footer {
+    .page-header__contact-list {
+      margin-right: 220px;
+    }
+  }
+}
