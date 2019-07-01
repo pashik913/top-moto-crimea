@@ -100,7 +100,7 @@ gulp.task("refresh", function(done) {
   done();
 });
 
-gulp.task("build", gulp.series ("clean", "copy", "css", "html"));
+gulp.task("build", gulp.series ("clean", "copy", "images", "webp", "sprite", "css", "html"));
 gulp.task("start", gulp.series("build", "server"));
 
 // "images", "webp", "sprite",

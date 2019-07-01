@@ -1,5 +1,6 @@
 .slider-gallery {
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
+  background-color: #eeeeee;
 }
 
 .slider-gallery--top {
@@ -200,5 +201,17 @@
 
   .sldr {
     height: 1280px;
+  }
+
+  .slider .item {
+    text-align: center;
+  }
+
+  .main-slider {
+    margin-top: 30px;
+  }
+
+  .slider .item img {
+    width: 65%;
   }
 }

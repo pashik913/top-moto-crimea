@@ -6,8 +6,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #04bf9d;
+  // background-color: #04bf9d;
   // padding: 10px 0;
+  background-color: #f3d21d;
+  border: 3px solid #f3d21d;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .goods__item__wrapper {
@@ -31,7 +35,7 @@
 
 .goods__item {
   padding: 10px 20px;
-  border-bottom: 1px solid #000000;
+  // border-bottom: 1px solid #000000;
 
   a {
     color: black;
@@ -47,9 +51,13 @@
 }
 
 @media (min-width: $width-tablet) {
+  .goods__item {
+    padding: 4px 20px;
+  }
+
   .goods__wrapper {
     display: block;
-    margin-top: -82px;
+    margin-top: -90px;
   }
 
   .goods__list {
